@@ -1,7 +1,7 @@
 # AWS Rekognition Alert System — Serverless Image Threat Detection
 Fully automated image scanning pipeline on AWS. Detects weapons and violent content using Amazon Rekognition AI and sends instant email alerts via SNS. Fully serverless — responds in under 10 seconds.
 
-Group project — ATU Sligo, Cloud Computing (Year 2, Semester 2) — Graded 77%
+Group project — ATU Sligo, Cloud Computing (Year 2, Semester 2) - Graded 77%
 
 Group: Adam Diamantidis (S00270094), Thomas McNabola, Colin Stewart Jr
 
@@ -14,9 +14,10 @@ No servers, no polling, no cron — pure event-driven, auto-scales to 1,000 para
 Monitored: Weapon, Gun, Rifle, Pistol, Knife, Violence, Fighting, Explosion, Fire — threshold 75%
 
 Results
-✅ Tested on 30 sample images
-✅ Alerts delivered in under 10 seconds from upload
-✅ Verified end-to-end in CloudWatch logs (Scanning image: ..., ALERT SENT)
+- Tested on 30 sample images
+- Alerts delivered in under 10 seconds from upload
+- Verified end-to-end in CloudWatch logs (Scanning image: ..., ALERT SENT)
+  
 Services used
 Service	Name	Role
 S3	rekognition-alert-images (eu-west-1)	Storage + event trigger on PUT
