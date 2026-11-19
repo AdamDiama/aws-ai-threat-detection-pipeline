@@ -2,9 +2,8 @@
 
 > Fully automated image scanning pipeline on AWS. Detects weapons and violent content using Amazon Rekognition AI and sends instant email alerts via SNS. Fully serverless — responds in under 10 seconds.
 
-**Group project — ATU Sligo, Cloud Computing (Year 2, Semester 2) — Graded 77%**
+**Group project — Cloud Computing (Year 2, Semester 2) — Graded 77%**
 
-Group: Adam Diamantidis (S00270094), Thomas McNabola, Colin Stewart Jr
 
 ## How it works
 
